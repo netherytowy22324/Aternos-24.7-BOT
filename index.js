@@ -59,9 +59,9 @@ http.listen(3000, function() {
 
 function createBot() {
   const bot = mc.createClient({
-    host: serverHost,
-    port: serverPort,
-    username: botUsername,
+    host: ggcoins.aternos.me,
+    port: 41043,
+    username: GGcoinsMonitor,
   });
 
   bot.on('login', () => {
